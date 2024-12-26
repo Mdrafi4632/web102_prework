@@ -14,13 +14,13 @@
     </div>
 
     <!-- background info about company -->
-    <h2>Welcome to Sea Monster!</h2>
     <div id="description-container">
+        <h2>Welcome to Sea Monster!</h2>
         <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
     </div>
 
     <!-- top games & other interesting stats -->
-    <h2>Stats</h2>
+    <br><br>
     <div class="stats-container">
         <div class="stats-card">
             <h3>Individual Contributions</h3>
@@ -48,8 +48,14 @@
     </div>
 
     <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
+    <div id="games-section">
+        <h2>Our Games</h2>
+        <p>Check out each of our games below!</p>
+    </div>
+    <div id="search-container">
+        <input type="text" id="search-bar" placeholder="Search for a game..." />
+        <button id="search-button">Search</button>
+    </div>
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
@@ -60,5 +66,6 @@
     </div>
 
     <script type="module" src="index.js"></script>
+    <button id="scroll-to-top">↑ Back to Top</button>
   </body>
 </html>
