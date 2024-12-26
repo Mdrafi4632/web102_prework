@@ -16,11 +16,11 @@ The following **required** functionality is completed:
 * ✅ The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
-✅ List anything else that you can get done to improve the app functionality!
-✅ Added a search bar for users to search for specific games by name.
-✅ Added a scroll-to-top button for improved navigation and user experience.
-✅ Enhanced the CSS with visually appealing customizations (bold tiles, center-aligned sections, hover effects).
-✅ Implemented responsive layouts and reduced spacing for better readability.
+* ✅ List anything else that you can get done to improve the app functionality!
+* ✅ Added a search bar for users to search for specific games by name.
+* ✅ Added a scroll-to-top button for improved navigation and user experience.
+* ✅ Enhanced the CSS with visually appealing customizations (bold tiles, center-aligned sections, hover effects).
+* ✅ Implemented responsive layouts and reduced spacing for better readability.
 
 ## Video Walkthrough
 
