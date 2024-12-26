@@ -40,20 +40,20 @@ GIF created with ...
 1. Aligning and Styling Elements:
    * Center-aligning elements like the header, introduction, and "Our Games" section required adjustments in both HTML structure and CSS styling. Managing consistent spacing and alignment across various sections was challenging.
 
-3. Adding New Features:
+2. Adding New Features:
    * Implementing optional features like the search bar and scroll-to-top button required integrating JavaScript functionality seamlessly into the existing codebase. Debugging issues with event listeners and ensuring smooth scrolling behavior took extra time.
-Dynamic Filtering and Display:
 
-Filtering the games dynamically (e.g., unfunded, funded, and all) and ensuring the correct games were displayed required careful use of the filter method and interaction with DOM manipulation functions.
-Understanding and Using Reduce:
+3. Dynamic Filtering and Display:
+   * Filtering the games dynamically (e.g., unfunded, funded, and all) and ensuring the correct games were displayed required careful use of the filter method and interaction with DOM manipulation functions.
 
-Using reduce to calculate total contributions and amounts raised was initially complex, especially ensuring proper formatting of numbers with commas using toLocaleString().
-Balancing Functionality and Visual Appeal:
+4. Understanding and Using Reduce:
+   * Using reduce to calculate total contributions and amounts raised was initially complex, especially ensuring proper formatting of numbers with commas using toLocaleString().
 
-Adding new features while maintaining an appealing and responsive design posed challenges. For instance, customizing hover effects and ensuring font and button consistency took iterative improvements.
-Managing Spacing and Gaps:
+5. Balancing Functionality and Visual Appeal:
+   * Adding new features while maintaining an appealing and responsive design posed challenges. For instance, customizing hover effects and ensuring font and button consistency took iterative improvements.
 
-Adjusting spacing between elements (e.g., paragraphs in the introduction section) required experimenting with CSS properties like margin and padding.
+6. Managing Spacing and Gaps:
+   * Adjusting spacing between elements (e.g., paragraphs in the introduction section) required experimenting with CSS properties like margin and padding.
 
 ## License
 
