@@ -27,6 +27,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 [![Walkthrough Video](https://img.youtube.com/vi/cV2nlNXQnn4/0.jpg)](https://youtu.be/cV2nlNXQnn4)
+Click the thumbnail above to watch the walkthrough video.
 
 ## Notes
 
