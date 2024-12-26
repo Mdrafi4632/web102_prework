@@ -26,13 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-Youtube Link = https://youtu.be/cV2nlNXQnn4
-
-<!-- Replace this with whatever GIF tool you used! -->
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+[![Walkthrough Video](https://img.youtube.com/vi/cV2nlNXQnn4/0.jpg)](https://youtu.be/cV2nlNXQnn4)
 
 ## Notes
 
