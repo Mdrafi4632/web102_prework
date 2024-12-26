@@ -27,12 +27,11 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 [![Walkthrough Video](https://img.youtube.com/vi/cV2nlNXQnn4/0.jpg)](https://youtu.be/cV2nlNXQnn4)
-Click the thumbnail above to watch the walkthrough video.
 
 ## Notes
 
 1. Aligning and Styling Elements:
-   * Center-aligning elements like the header, introduction, and "Our Games" section required adjustments in both HTML structure and CSS styling. Managing consistent spacing and alignment across various sections was challenging.
+   * Center-aligning elements like the header, introduction, and "Our Games" section required HTML structure and CSS styling adjustments. Managing consistent spacing and alignment across various sections was challenging.
 
 2. Adding New Features:
    * Implementing optional features like the search bar and scroll-to-top button required integrating JavaScript functionality seamlessly into the existing codebase. Debugging issues with event listeners and ensuring smooth scrolling behavior took extra time.
