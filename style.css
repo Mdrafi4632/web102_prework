@@ -2,7 +2,10 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #d0e2f2; /* Light blue-gray background */
+    color: #333333;
+    margin: 0;
+    padding: 0;
 }
 
 #tentacles {
@@ -11,13 +14,15 @@ body {
 
 .header {
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
     background-color: lightblue;
     padding: 1%;
-    align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    margin: 0; /* Reset margin to avoid misalignment */
+    height: 100px; /* Adjust height as needed for proper vertical alignment */
+    text-align: center; /* Ensure the text is centered */
 }
+
 
 .stats-container {
     display: flex;
@@ -34,6 +39,7 @@ body {
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+    font-weight: bold; /* Bold numbers for stats */
 }
 
 #games-container {
@@ -49,17 +55,25 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold; /* Make titles bold */
+}
+
+.game-card h3 {
+    font-weight: 700; /* Bold titles */
+    color: #333333; /* Darker text for titles */
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(135, 206, 235, 0.8);
 }
 
 #button-container {
@@ -72,4 +86,110 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover {
+    background-color: #87ceeb;
+    color: #ffffff;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #87ceeb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #5da3d3;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #87ceeb;
+    color: #0a0101;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+
+#scroll-to-top:hover {
+    background-color: #5da3d3;
+}
+
+/* CSS rule for stats-container */
+.stats-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px #87ceeb;
+}
+
+/* Add hover effect for stats-container */
+.stats-container:hover {
+    box-shadow: 0 0 30px rgba(135, 206, 235, 0.6);
+}
+
+/* CSS rule for stats-card */
+.stats-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold; /* Make stats titles bold */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.stats-card:hover {
+    box-shadow: 0 0 20px rgba(135, 206, 235, 0.6);
+    transform: translateY(-5px);
+}
+
+#games-section {
+    display: flex;
+    flex-direction: column; /* Stack the title and description vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Align text */
+    height: 10vh; /* Full viewport height */
+    background-color: #f0f8ff; /* Optional: Adjust background for visibility */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#description-container {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text alignment */
+    height: 10vh; /* Full viewport height */
+    background-color: #f0f8ff; /* Optional: Adjust background color for aesthetics */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    box-sizing: border-box; /* Ensure consistent box sizing */
+}
+
+#description-container p {
+    margin: 5px 0; /* Reduce vertical margin between paragraphs */
+    line-height: 1; /* Adjust line height for better readability */
 }
